@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'welcome.css'%}">
+    </head>
+    <body>
+        <div>
+            <h2 id="welcome">
+                Welcome
+            </h2>
+        </div>
+        <div class="containar">
+            <h2>Who are you?<h2>
+            <div class="employee">
+                <P>
+                    <a href="{% url 'login'%}">Recruiter</a>
+                </P>
+            </div>
+            <div class="user">
+                <P>
+                    <a href="{% url 'user-login'%}">Job Seeker</a>
+                </P>
+            </div>
+        </div>
+
+        
+        
+    </body>
+</html>

@@ -1,0 +1,81 @@
+
+body{
+
+    
+    background: linear-gradient(to right, rgb(212, 244, 245),rgb(218, 241, 241));
+
+}
+.containar{
+    display: flex;
+    background-color: rgb(71, 71, 70);
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.jobdetails a{
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 900px;
+    padding-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.jobdetails a:hover{
+    color: rgb(218, 111, 11);
+    text-decoration: none;
+    margin-left: 900px;
+    padding-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+.job-post a{
+    
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    
+}
+
+.job-post a:hover{
+    
+    
+    color: rgb(218, 111, 11);
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    
+}
+
+.logout a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.logout a:hover{
+
+    color: rgb(255, 95, 3);
+    text-decoration: none;
+    margin-left: 15px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+h1{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: underline;
+    color: rgb(255, 81, 0);
+}

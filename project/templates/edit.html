@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'empedit.css' %}">
+    </head>
+    
+    <body>
+        <div>
+            <nav class="containar">
+                 <ul>
+                     <a href="{% url 'profile' %}">Profile</a>
+                 </ul>
+             </nav>
+         </div>
+        <form  method="post" action="{% url 'edit' data.id %}">
+            {%csrf_token%}
+       <div class="fullcontainar">
+        
+            <div class="title">
+                <label id="title" for="title">Title: </label>
+                <input type="text" name="title"  value="{{data.Title}}">
+            </div>
+            <div class="description">
+                <label id="description" for="description">Description: </label>
+                <textarea id="inputdescription" name="description" >{{data.Description}}</textarea>
+            </div>
+            <div class="skills">
+                <label  id="skills" for="skills">Skills: </label>
+                <input type="text" name="skills" value="{{data.Skills_required}}">
+            </div>
+            <div class="salary">
+                <label  id="salary" for="salary">Salary: </label>
+                <input type="text" name="salary"  value="{{data.Job_salary}}">
+            </div>
+            <div class="exp">
+                <label id="exp" for="experience">Expreience: </label>
+                <input type="text" name="exp"  value="{{data.Experience}}">
+            </div>
+            <div class="location">
+                <label id="location" for="location">Location: </label>
+                <input type="text" name="location"  value="{{data.Job_location}}">
+            </div>
+        
+        <div class="btn">
+            <input type="submit" value="Update">
+        </div>
+       </div>
+    </form>
+        
+    </body>
+</html>

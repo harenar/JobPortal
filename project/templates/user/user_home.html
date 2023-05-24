@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'user_home.css'%}">
+    </head>
+    <body>
+        
+            
+      
+        <div class="containar">
+            <ul>
+                <a href="{% url 'logout' %}">Logout</a>
+            </ul>
+        </div>
+        
+        {% for data in data %}
+    <div class="containar1">
+        <div class="image">
+            <img src="{{data.Company_logo.url}}"  height="100px",width="100px" alt="img"/>
+        </div>
+        <div class="companyname">
+            <h2>{{data.employee}}</h2>
+        </div>
+
+        <div class="title">
+            <h3>Profile: {{data.Title}}</h3>
+        </div>
+        <div class="description">
+            <h3>Description: {{data.Description}}</h3>
+        </div>
+        <div class="salary">
+            <h3>Salary: {{data.Job_salary}}</h3>
+        </div>
+        <div class="skills">
+            <h3>Salary: {{data.Skills_required}}</h3>
+        </div>
+        <div class="location">
+            <p>Location: {{data.Job_location}}<p>
+        </div>
+       
+
+        <div class="exp">
+            <p>Experience: {{data.Experience}}</p>
+     </div>
+
+            <div class="btn-apply">
+            <a href="{% url 'apply' data.id %}">Apply</a>
+            </div>
+            <HR>
+</div>              
+        {% endfor %}
+
+        
+        
+    </body>
+</html>

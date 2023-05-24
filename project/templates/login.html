@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'employeelogin.css' %}">
+    </head>
+    <body>
+     <div>
+        <form method="post">
+            {% csrf_token %}
+            <div class="containar">
+                {% for logout in messages %}
+                 {{logout}}
+                {% endfor %}
+                
+               <h2>Login</h2>
+                <div class="email">
+                    <input type="email" name="companyEmail" placeholder="Enter your Company Email">
+                </div>
+                <div class="password">
+                    <input type="password" name="password" placeholder="Enter your Password">
+                </div>
+               
+                <button  id="btn1" type="submit">Login</button>
+                <div class="login">
+                <a href="{% url 'register'%}">signup</a>
+                </div>
+            </div>
+        </form>
+     </div>
+    </body>
+</html>

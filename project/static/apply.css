@@ -1,0 +1,217 @@
+
+body{
+
+    
+    background: linear-gradient(to right, rgb(212, 244, 245),rgb(218, 241, 241));
+
+}
+h2{
+    margin-left: 150px;
+    color: rgb(236, 43, 17);
+}
+.containar{
+    background-color: rgb(71, 71, 70);
+    
+    padding-top: 20px;
+    border-radius: 4px;
+    text-align: right;
+    display: flexbox;
+    
+}
+
+.containar ul a{
+    
+    
+
+    
+    border-radius: 2px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    
+    
+}
+.containar ul a:hover{
+    
+    
+
+    
+    border-radius: 2px;
+    color: rgb(206, 100, 38);
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    
+}
+
+.containar1{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: rgb(121, 121, 121); */
+    background-color: aliceblue;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.name input{
+    
+    background-color: rgb(212, 212, 212);
+    border-style: hidden;
+     
+    
+    
+    border-radius: 5px;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name input:hover{
+    background-color: rgb(92, 92, 92);
+    
+    border-style: hidden;
+    
+    border-radius: 5px;
+    
+    color: rgb(17, 17, 17);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+.number input{
+    /* background-color: rgb(39, 35, 35); */
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    border-style: hidden;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.number input:hover{
+   
+    background-color: rgb(92, 92, 92);
+    border-radius: 5px;
+    border-style: hidden;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.college input{
+    /* background-color: rgb(39, 35, 35); */
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    border-style: hidden;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.college input:hover{
+    /* background-color: rgb(39, 35, 35); */
+    /* background-color: rgb(212, 212, 212); */
+    background-color: rgb(92, 92, 92);
+    border-radius: 5px;
+    border-style: hidden;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.resume input{
+    /* background-color: rgb(39, 35, 35); */
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    border-style: hidden;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.resume input:hover{
+    /* background-color: rgb(39, 35, 35); */
+    /* background-color: rgb(212, 212, 212); */
+    background-color: rgb(92, 92, 92);
+    border-radius: 5px;
+    border-style: hidden;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#btn1 button{
+    /* background-color: rgb(240, 240, 240); */
+    background-color: rgb(211, 252, 252);
+    color: rgb(37, 177, 177);
+    text-align: center;
+    height: 40px;
+    width: 507px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-style: hidden;
+    cursor: pointer;
+    font-size: 20px;
+   
+    
+    
+}
+#btn1 button:hover{
+    background-color: rgb(111, 196, 78);
+    color: rgb(18, 19, 18);
+    text-align: center;
+    height: 40px;
+    width: 509px;
+    margin-top: 3px;
+    border-radius: 2px;
+    border-style: hidden;
+    cursor: pointer;
+    /* display:flex;  */
+    
+    
+}

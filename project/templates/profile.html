@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'profile.css'%}">
+    </head>
+    <body>
+
+    <div class="containar">
+        <div class="jobdetails">
+            <a href="{% url 'jobdetails' %}">Job Details</a>
+        </div>
+
+        <div class="job-post">
+            <a href="{% url 'job-post'%}">Job Post</a>
+        </div>
+         <div class="logout">
+            <a href="{% url 'emp-logout' %}">Logout</a>
+        </div>
+    </div>
+
+        <h1>Applicants</h1>
+        <div>
+            <table>
+                <hr>
+            {% for data in user_list%}
+            <ul>
+                Name: {{data.User_name}}
+            </ul>
+            <ul>
+                Phone Number: {{data.User_phone_number}}
+            </ul>
+            <ul>
+                College/University: {{data.User_coll_univ}}
+            </ul>
+            <ul>
+                Profile: {{data.jobpost}}
+            </ul>
+                <hr>
+            {% endfor %}
+            </table>
+        </div>
+    </body>
+
+</html>

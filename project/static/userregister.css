@@ -1,0 +1,303 @@
+
+
+body{
+    /* background-color: rgb(204, 203, 203); */
+
+
+
+    /* background-color: rgb(233, 243, 243); */
+
+
+    /* background: linear-gradient(rgb(214, 238, 238)); */
+    /* background-color: #beeafc; */
+    /* background: linear-gradient(to right,#beeafc, #87CEEB);*/
+    /* background-color: rgb(211, 240, 241); */
+    
+    background: linear-gradient(to right, rgb(212, 244, 245),rgb(218, 241, 241));
+    /* background: linear-gradient(to right, rgb(212, 244, 245),rgb(151, 243, 200)); */
+    /* background-color: transparent; */
+    
+
+
+
+   
+    
+
+
+
+}
+
+.fullcontainar{
+    /* background-color: black; */
+   
+}
+h2{
+    /* color: rgb(5, 5, 5); */
+    /* color: rgb(54, 54, 54); */
+    /* color: rgb(255, 105, 105); */
+    color:#f35033;
+    
+
+
+    /* color: rgb(8, 8, 8); */
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+    /* text-transform: uppercase; */
+}
+#msg{
+    color: red;
+}
+
+.containar{
+    /* background-color: white; */
+    text-align: center;
+    /* background-color: rgb(175, 175, 175); */
+    /* background-color: rgb(255, 255, 255); */
+
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(245, 245, 245); */
+    
+
+
+    /* background-color: rgb(201, 97, 97); */
+    
+    /* border-color: red;*/
+    border-radius: 10px;
+    border-style: hidden;
+    
+    
+    margin-top: 100px;
+    margin-bottom: 40PX;
+    margin-left: 450px;
+    margin-right: 450px;
+
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: ;
+    padding-right: ;
+
+    
+    /* background-color: transparent; */
+    /* visibility: hidden; */
+    /* opacity: 0.9; */
+}
+
+
+
+
+
+.name{
+    /* height:; */
+    /* color: black; */
+    
+    
+}
+.name input{
+    /* background-color: rgb(92, 92, 92); */
+    /* background-color: rgb(170, 170, 170); */
+    background-color: rgb(212, 212, 212);
+    border-style: hidden;
+     
+    /* border-color: rgb(114, 114, 114) solid;  */
+    /* border-color: rgb(95, 95, 95); */
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 5px;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name input:hover{
+    background-color: rgb(92, 92, 92);
+    /* background-color: rgb(170, 170, 170); */
+    border-style: hidden;
+     
+    /* border-color: rgb(114, 114, 114) solid;  */
+    /* border-color: rgb(95, 95, 95); */
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 5px;
+    /* color: rgb(212, 212, 212); */
+    color: rgb(17, 17, 17);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+.email{
+
+}
+.email input{
+    /* background-color: rgb(39, 35, 35); */
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    border-style: hidden;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.email input:hover{
+    /* background-color: rgb(39, 35, 35); */
+    /* background-color: rgb(212, 212, 212); */
+    background-color: rgb(92, 92, 92);
+    border-radius: 5px;
+    border-style: hidden;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+.password{
+
+}
+.password input{
+    /* background-color: rgb(39, 35, 35); */
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    border-style: hidden;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.password input:hover{
+
+    background-color: rgb(92, 92, 92);
+    border-radius: 5px;
+    border-style: hidden;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.conpassword{
+
+}
+.conpassword input{
+    /* background-color: rgb(39, 35, 35); */
+
+    background-color: rgb(212, 212, 212);
+
+    
+    border-radius: 5px;
+    border-style: hidden;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.conpassword input:hover{
+    /* background-color: rgb(39, 35, 35); */
+
+    /* background-color: rgb(212, 212, 212); */
+
+    background-color: rgb(92, 92, 92);
+    border-radius: 5px;
+    border-style: hidden;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 5px;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#btn1{
+    /* background-color: rgb(240, 240, 240); */
+    background-color: rgb(211, 252, 252);
+    color: rgb(37, 177, 177);
+    text-align: center;
+    height: 40px;
+    width: 507px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-style: hidden;
+    cursor: pointer;
+    font-size: 20px;
+    /* display:flex;  */
+    /* text-transform: uppercase; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    
+    
+}
+#btn1:hover{
+    background-color: rgb(111, 196, 78);
+    color: rgb(18, 19, 18);
+    text-align: center;
+    height: 40px;
+    width: 509px;
+    margin-top: 3px;
+    border-radius: 2px;
+    border-style: hidden;
+    cursor: pointer;
+    /* display:flex;  */
+    
+    
+}
+button{
+    color:black;
+    background-color: black;
+}
+
+
+.login{
+    /* background-color: black; */
+    margin-top: 5px;
+    color: ;
+    
+}
+.login a{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: large;
+}
+.login a:hover{
+    color: rgb(34, 43, 177);
+    text-decoration: none;
+    cursor: pointer;
+}

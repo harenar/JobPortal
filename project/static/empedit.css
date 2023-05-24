@@ -1,0 +1,305 @@
+body{
+
+    
+    background: linear-gradient(to right, rgb(212, 244, 245),rgb(218, 241, 241));
+
+}
+
+
+.containar{
+    background-color: rgb(71, 71, 70);
+    
+    padding-top: 20px;
+    border-radius: 4px;
+    text-align: right;
+    display: flexbox;
+    
+}
+
+.containar ul a{
+    
+    
+
+    
+    border-radius: 2px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    
+    
+}
+.containar ul a:hover{
+    
+    
+
+    
+    border-radius: 2px;
+    color: rgb(206, 100, 38);
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    
+}
+
+.fullcontainar{
+    margin-top: 60px;
+    background-color: rgb(190, 187, 187);
+    margin-left: 60px;
+    margin-right: 60px;
+
+    padding-bottom: 80px;
+    border-radius:5px;
+    border: hidden;
+    
+}
+
+/* title style */
+
+.title{
+    padding-top: 10px;
+    
+    margin-bottom: 5px;
+    
+     
+}
+
+#title{
+    margin-left: 520px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.title input{
+    margin-left: 10px;
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid rgb(138, 136, 136);
+    
+    border-radius: 2px;
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    
+}
+
+
+
+/* description style */
+
+.description{
+    text-align: center;
+  
+}
+
+#description{
+
+    text-align: center;
+    font-size: 26px;
+    padding-top: -30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.discription textarea{
+   
+    
+}
+#inputdescription{
+    height: 200px;
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid rgb(138, 136, 136);
+    
+    border-radius: 2px;
+    text-align: center;
+    background-color: rgb(134, 131, 131);
+    margin-left: 15px;
+}
+
+
+
+/* skills */
+
+
+.skills{
+    text-align: center;
+}
+
+#skills{
+    margin-left: 100px;
+    /* padding-right: -20px; */
+    text-align: center;
+    font-size: 26px;
+    margin-right: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.skills input{
+    padding-right: -33px;
+    height: 30px;
+    width: 400px;
+    
+    font-size: 20px;
+    border: 1px solid rgb(138, 136, 136);
+    
+    border-radius: 2px;
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    margin-right: 17px;
+    
+}
+
+
+
+/* salary */
+.salary{
+    text-align: center;
+}
+
+#salary{
+    margin-left: 100px;
+    padding-right: 0px;
+    text-align: center;
+    font-size: 26px;
+    margin-right: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.salary input{
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid rgb(138, 136, 136);
+
+    /* margin-left: 20px; */
+    border-radius: 2px;
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    margin-right: 28px;
+}
+
+
+
+/* experience */
+.exp{
+    /* text-align: center; */
+}
+#exp{
+    margin-left: 480px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 26px;
+    margin-left: 450px;
+    padding-right: 15px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.exp input{
+    /* padding-left: 10px; */
+    
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid rgb(138, 136, 136);
+    
+    border-radius: 2px;
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    
+}
+
+/* location */
+
+.location{
+    
+}
+
+#location{
+    margin-left: 480px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.location input{
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid rgb(138, 136, 136);
+    
+    border-radius: 2px;
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    margin-right: 16px;
+    margin-bottom: 10PX;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-left: 618px;
+    margin-right: 750px;
+    
+}
+.btn input{
+    height: 40px;
+    width: 409px;
+    border-radius: 5px solid white;
+    border: hidden;
+    background-color: rgb(129, 129, 129);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+
+}
+.btn input:hover{
+    height: 40px;
+    width: 409px;
+    border-radius: 5px solid white;
+    border: hidden;
+    background-color: rgb(226, 135, 17);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(3, 3, 3);
+}
+
+/* .btn{
+    margin-left: 200px;
+    background-color: rgb(71, 71, 71);
+
+    
+    
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 157px;
+    margin-left: 1090px;
+    margin-right: 100px;
+    
+    margin-bottom: 130px;
+    border-radius: 6px;
+    border: hidden;
+    
+    
+}
+.btn input{
+    text-decoration: none;
+    font-size: 20px;
+    border-top: 2px solid black;
+    background-color: rgb(71, 71, 71);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+.btn:hover{
+    background-color: rgb(34, 192, 69);
+    color: black;
+    font-size: 20px;
+
+} */
