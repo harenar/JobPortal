@@ -9,7 +9,7 @@ urlpatterns = [
     path('login', views.employee_login, name='login'),
     path('logout', views.employer_logout, name='emp-logout'),
     
-    # ANOTHER URL
+    # ANOTHER URL LIKE(DELETE,POST,PROFILE,DETAILS)
     path('job-details', views.job_details, name='jobdetails'),
     path('rec-profile', views.Profile, name="profile"),
     path('job-post', views.job_post, name='job-post'),
