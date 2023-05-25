@@ -51,7 +51,6 @@ h2{
     margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
-    /* background-color: rgb(121, 121, 121); */
     background-color: aliceblue;
     margin-left: 200px;
     margin-right: 200px;
@@ -63,9 +62,6 @@ h2{
     
     background-color: rgb(212, 212, 212);
     border-style: hidden;
-     
-    
-    
     border-radius: 5px;
     color: rgb(15, 15, 15);
     text-align: center;
@@ -78,11 +74,8 @@ h2{
 
 .name input:hover{
     background-color: rgb(92, 92, 92);
-    
     border-style: hidden;
-    
     border-radius: 5px;
-    
     color: rgb(17, 17, 17);
     text-align: center;
     height: 40px;
@@ -97,7 +90,6 @@ h2{
 
 
 .number input{
-    /* background-color: rgb(39, 35, 35); */
     background-color: rgb(212, 212, 212);
     border-radius: 5px;
     border-style: hidden;
@@ -111,7 +103,6 @@ h2{
 }
 
 .number input:hover{
-   
     background-color: rgb(92, 92, 92);
     border-radius: 5px;
     border-style: hidden;
@@ -126,7 +117,6 @@ h2{
 
 
 .college input{
-    /* background-color: rgb(39, 35, 35); */
     background-color: rgb(212, 212, 212);
     border-radius: 5px;
     border-style: hidden;
@@ -140,8 +130,6 @@ h2{
 }
 
 .college input:hover{
-    /* background-color: rgb(39, 35, 35); */
-    /* background-color: rgb(212, 212, 212); */
     background-color: rgb(92, 92, 92);
     border-radius: 5px;
     border-style: hidden;
@@ -156,7 +144,6 @@ h2{
 
 
 .resume input{
-    /* background-color: rgb(39, 35, 35); */
     background-color: rgb(212, 212, 212);
     border-radius: 5px;
     border-style: hidden;
@@ -170,8 +157,6 @@ h2{
 }
 
 .resume input:hover{
-    /* background-color: rgb(39, 35, 35); */
-    /* background-color: rgb(212, 212, 212); */
     background-color: rgb(92, 92, 92);
     border-radius: 5px;
     border-style: hidden;
@@ -186,7 +171,6 @@ h2{
 
 
 #btn1 button{
-    /* background-color: rgb(240, 240, 240); */
     background-color: rgb(211, 252, 252);
     color: rgb(37, 177, 177);
     text-align: center;
